@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/selectRoomLabel"
+            android:layout_margin="10dp"
+            style="@style/TextView.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select Room" />
+
+        <Button
+            android:id="@+id/viewKitchenButton"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kitchen" />
+
+        <Button
+            android:id="@+id/viewBedroomButton"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bedroom" />
+
+        <Button
+            android:id="@+id/viewBathroomButton"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bathroom" />
+
+        <Button
+            android:id="@+id/viewLivingRoomButton"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Living Room" />
+
+        <Button
+            android:id="@+id/viewDiningRoomButton"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dining Room" />
+    </LinearLayout>
+</RelativeLayout>
